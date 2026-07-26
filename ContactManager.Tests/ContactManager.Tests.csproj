@@ -15,8 +15,4 @@
 		<ProjectReference Include="..\ContactManager.Application\ContactManager.Application.csproj" />
 		<ProjectReference Include="..\ContactManager.Domain\ContactManager.Domain.csproj" />
 	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="Application\" />
-	  <Folder Include="Domain\" />
-	</ItemGroup>
 </Project>
