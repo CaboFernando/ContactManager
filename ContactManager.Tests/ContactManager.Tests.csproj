@@ -12,7 +12,11 @@
 		<PackageReference Include="Moq" Version="4.20.69" />
 	</ItemGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\..\src\ContactManager.Application\ContactManager.Application.csproj" />
-		<ProjectReference Include="..\..\src\ContactManager.Domain\ContactManager.Domain.csproj" />
+		<ProjectReference Include="..\ContactManager.Application\ContactManager.Application.csproj" />
+		<ProjectReference Include="..\ContactManager.Domain\ContactManager.Domain.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Application\" />
+	  <Folder Include="Domain\" />
 	</ItemGroup>
 </Project>
