@@ -11,8 +11,4 @@
 	<ItemGroup>
 		<ProjectReference Include="..\ContactManager.Domain\ContactManager.Domain.csproj" />
 	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="Context\" />
-	  <Folder Include="Repositories\" />
-	</ItemGroup>
 </Project>

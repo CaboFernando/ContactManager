@@ -3,7 +3,7 @@ using System.Reflection;
 
 namespace ContactManager.Domain.Entities;
 
-public class Contact
+public class Contato
 {
     private const int MinimumAge = 18;
 
@@ -20,9 +20,9 @@ public class Contact
     /// </summary>
     public int Idade => CalcularIdade(DataNascimento);
 
-    protected Contact() { }
+    protected Contato() { }
 
-    public Contact(string nome, DateTime dataNascimento, Genero genero)
+    public Contato(string nome, DateTime dataNascimento, Genero genero)
     {
         ValidarNome(nome);
         ValidarDataNascimento(dataNascimento);
