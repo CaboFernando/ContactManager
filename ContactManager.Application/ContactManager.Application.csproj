@@ -7,9 +7,4 @@
 	<ItemGroup>
 		<ProjectReference Include="..\ContactManager.Domain\ContactManager.Domain.csproj" />
 	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="DTOs\" />
-	  <Folder Include="Interfaces\" />
-	  <Folder Include="Services\" />
-	</ItemGroup>
 </Project>
